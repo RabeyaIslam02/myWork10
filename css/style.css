@@ -1,0 +1,134 @@
+/*font-family: 'PT Sans', sans-serif;*/
+@font-face{
+	font-family: HelveticaNeueBold;
+	src:url(../HelveticaNeueBold.otf);
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+/* header start */
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.menu ul li a{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101;
+	padding: 0 30px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/* header end */
+/* slider start */
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 90px;
+}
+/* indicator start */
+.carousel-indicators {
+    bottom: -70px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #000000;
+}
+/* indicator end */
+.inspire{
+	margin-top: 50px;
+}
+.inspire h1{
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+.inspire h3{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.inspire p{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.inspire ul li i{
+	font-size: 42px;
+	margin-right: 20px;
+}
+.tab{}
+.tab img{}
+/* slider end */
+/* features start */
+.features{
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+.title{}
+.title h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+}
+.title p{
+	font-size: 20px;
+	color: #313841;
+}
+.icon{
+	color: #010101;
+	font-size: 50px;
+}
+.content{
+	margin-top: 7px;
+}
+.content h1{
+	font-size: 22px;
+	color: #010101;
+}
+.content p{
+	font-size: 16px;
+	color: #898989;
+}
+.p_l_0{
+	padding-left: 0;
+}
+.m_t_30{
+	margin-top: 30px;
+}
+/* features end */
+/* contact start */
+.contact{
+	background-color: #010101;
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+.yellow{
+	color: #fcdb00 !important;
+}
+.white{
+	color: #898989 !important;
+}
+.m_t_25{
+	margin-top: 25px;
+}
+.contact_form{}
+.contact_form input{
+	color: #898989;
+	font-size: 16px;
+	padding: 26px 10px;
+}
+.contact_form button{
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	background-color: #fcdb00;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+.btn-custom{}
+/* contact end */
