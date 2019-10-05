@@ -52,8 +52,15 @@
 }
 /* features end */
 /* contact start */
+.contact{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
 .contact_form input{
 	padding: 20px 10px;
+}
+.form-control{
+	text-align: center;
 }
 .contact_form button{
 	width: 100%;
@@ -61,6 +68,10 @@
 	margin-top: 10px;
 }
 /* contact end */
+.address{
+	padding-top: 0;
+	padding-bottom: 70px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -94,6 +105,16 @@
 }
 /* features end */
 /* contact start */
+.contact{
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+.title h1{
+    font-size: 29px;
+}
+.title p{
+    font-size: 19px;
+}
 .contact_form input{
 	padding: 21px 10px;
 }
@@ -101,6 +122,28 @@
 	padding: 10px 25px;
 }
 /* contact end */
+/* address start */
+.address{
+	padding-top: 0;
+	padding-bottom: 80px;
+}
+/* address end */
+/* link-social start */
+.link-social{
+	margin-top: 58px;
+}
+.link-social ul li a img{
+	margin-left: 0;
+}
+/* link-social end */
+/* address start */
+address{
+	padding-left: 0;
+}
+/* address end */
+footer {
+    padding-bottom: 80px;
+}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -128,21 +171,46 @@
 	padding-top: 70px;
 	padding-bottom: 80px;
 }
+.icon{
+	font-size: 42px;
+}
 /* features end */
 /* contact start */
 .contact_form button{
 	padding: 15px 32px;
 }
 /* contact end */
+/* address start */
+.address{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+/* address end */
+/* link-social start */
+.link-social ul li a img{
+	margin-left: 0;
+}
+/* link-social end */
+/* address start */
+address{
+	padding-left: 20px;
+}
+/* address end */
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 /* contact start */
+.contact{
+	padding-bottom: 80px;
+}
 .contact_form button{
 	padding: 15px 37px;
 }
 /* contact end */
+/* address start */
+
+/* address end */
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
