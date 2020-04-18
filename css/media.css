@@ -72,6 +72,18 @@
 	padding-top: 0;
 	padding-bottom: 70px;
 }
+.first{
+	text-align: center;
+	padding-left: 0px;
+}
+.second, .third, .forth, .fifth{
+	padding-top: 20px;
+	text-align: center;
+	padding-left: 0px;
+}
+footer{
+	padding-bottom: 60px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
